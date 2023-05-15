@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8">
+<title>Audio Guide</title>
+
+<!--aos head 영역-->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+<link rel="icon" href="img/icon_logo.png">
+
+
+
+<style type="text/css">
+
+   *{padding:0px; margin:0px; list-style: none;}
+
+    /*프레임, 공통*/
+    #frame{width: 1920px; height: 7040px; margin: auto; overflow: hidden; background: White;}
+
+    /*nav*/
+    #nav {position: absolute; z-index: 1;}
+    #nav li{float: left; position: relative; left: 187px; top: 52px; margin-right: 60px;}
+    #nav li:nth-child(4){position: absolute; left: 1303px;}
+    #nav li:nth-child(5){position: absolute; left: 1434px;}
+    #nav li:last-child{clear: both; position: absolute; left: 1602px; top: 50px;}
+
+    /*visual*/
+    #visual {height: 463px;}
+
+    /*s1*/
+    #s1 {height: 1258px;}
+    #s1 .p{position: absolute;}
+    #s1 .s1{position: absolute; top: 210px; left: 188px;}
+
+    #s2 {height: 1209px;}
+    #s2 .p{position: absolute;}
+    #s2 .s2{position: absolute; top: 420px; left: 188px;}
+
+    #s3 {height: 1257px;}
+    #s3 .p{position: absolute;}
+    #s3 .s3{position: absolute; top: 630px; left: 188px;}
+
+    #s4 {height: 1804px;}
+    #s4 .p{position: absolute;}
+    #s4 .s4{position: absolute; top: 840px; left: 188px;}
+
+
+    #top{position: fixed; bottom: 60px; right: 50px;}
+
+
+</style>
+</head>
+
+<body>
+
+    <div id="frame">
+        <ul id="nav">
+            <li><a href="index.html"><img src="img/HOME.png" onmouseover="this.src='img/HOME_.png'"
+                onmouseout="this.src='img/HOME.png'"width="73px" height="17px"/></a></li>
+            <li><a href="index_C.html"><img src="img/CHARLEY.png" onmouseover="this.src='img/CHARLEY_.png'"
+                onmouseout="this.src='img/CHARLEY.png'"width="110px" height="17px"/></a></li>
+            <li><a href="index_M.html"><img src="img/MARY.png" onmouseover="this.src='img/MARY_.png'"
+                onmouseout="this.src='img/MARY.png'"width="69px" height="17px"/></a></li>
+            <li><a href="index_L.html"><img src="img/LUCIE_.png"></a></li>
+            <li><a href="index_B.html"><img src="img/BOX SETS.png" onmouseover="this.src='img/BOX SETS_.png'"
+                onmouseout="this.src='img/BOX SETS.png'"width="108px" height="17px"/></a></li>
+            <li><a href="https://web.archive.org/web/20151108194824/http://www.chakoteya.net/8Doctor/episodes8.html" target=_blank>
+                <img src="img/script_btn.png" onmouseover="this.src='img/script_btn_.png'"
+                onmouseout="this.src='img/script_btn.png'"width="129px" height="21px"/></a></li>
+            </ul>
+        </ul>
+        <div id="visual"><img src="img/03_visual.png"></div>
+
+        <div id="s1">
+            <div class="p" data-aos="fade-up" data-aos-duration="1500">
+                <div class="s1"><img src="img/03_series1.png"></div>
+            </div>
+        </div>
+
+        <div id="s2">
+            <div class="p" data-aos="fade-up" data-aos-duration="1500">
+                <div class="s2"><img src="img/03_series2.png"></div>
+            </div>
+        </div>
+
+        <div id="s3">
+            <div class="p" data-aos="fade-up" data-aos-duration="1500">
+                <div class="s3"><img src="img/03_series3.png"></div>
+            </div>
+        </div>
+
+        <div id="s4">
+            <div class="p" data-aos="fade-up" data-aos-duration="1500">
+                <div class="s4"><img src="img/03_series4.png"></div>
+            </div>
+        </div>
+
+        <div id="top">
+            <a href="#"><img src="img/TOP.png" onmouseover="this.src='img/TOP_h.png'"
+                onmouseout="this.src='img/TOP.png'"width="60px" class="top"></a>
+        </div>
+    </div>
+
+    <!--aos body 영역-->
+    <script> AOS.init(); </script>
+
+</body>
+
+
+</html>
