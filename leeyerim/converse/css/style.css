@@ -1,0 +1,485 @@
+#wrap {
+  width: 100vw;
+  height: 10614px;
+  background: #050505;
+
+  overflow: hidden;
+  position: relative;
+}
+
+.wholebg {
+  width: 1920px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin-left: -960px;
+}
+
+/* 비주얼 */
+#section01 {
+  width: 1920px;
+  height: 1579px;
+}
+
+#section01 .visual {
+  position: absolute;
+  top: 43px;
+
+  width: 1920px;
+  left: 50%;
+  margin-left: -960px;
+}
+
+#section01 .textrolling {
+  position: absolute;
+  top: 359px;
+  left: 0;
+}
+
+#section01 .textrolling .inner {
+  display: flex;
+}
+
+/* 오버뷰 */
+#section02 {
+  width: 1920px;
+  height: 1025px;
+}
+
+#section02 .overview {
+  width: 1920px;
+
+  position: absolute;
+  top: 1579px;
+  left: 50%;
+  margin-left: -960px;
+}
+
+#section02 .img01 {
+  position: absolute;
+  top: 0;
+  left: 118px;
+
+  transform: rotate(10deg);
+}
+
+#section02 .img02 {
+  position: absolute;
+  top: 172px;
+  left: 308px;
+
+  opacity: 0;
+  transform: rotate(-10deg);
+}
+
+#section02 .logo {
+  position: absolute;
+  top: 81px;
+  left: 762px;
+}
+
+#section02 .line {
+  position: absolute;
+  left: 704px;
+  top: 580px;
+
+  clip-path: polygon(0 0, 0 100%, 100% 100%, 0% 100%);
+}
+
+#section02 .text {
+  position: absolute;
+  top: 100px;
+  left: 1098px;
+}
+
+#section02 .sign {
+  position: absolute;
+  top: 564px;
+  left: 1152px;
+
+  clip-path: inset(0 100% 0 0);
+}
+
+/* 타이포 */
+#section03 {
+  width: 1920px;
+  height: 1725px;
+}
+
+#section03 .typo {
+  width: 1920px;
+
+  position: absolute;
+  top: 2604px;
+  left: 50%;
+  margin-left: -960px;
+}
+
+#section03 .title {
+  position: absolute;
+  top: 0;
+  left: 118px;
+}
+
+#section03 .text {
+  position: absolute;
+  top: 997px;
+  left: 117px;
+
+  opacity: 0;
+  transform: translateY(20px);
+}
+
+#section03 .img02 {
+  position: absolute;
+  top: 150px;
+  left: 642px;
+
+  opacity: 0;
+  transform: rotate(10deg);
+}
+
+#section03 .img03 {
+  position: absolute;
+  top: 115px;
+  right: 117px;
+
+  opacity: 0;
+  transform: rotate(-10deg);
+}
+
+#section03 .yellowtext {
+  position: absolute;
+  top: 385px;
+  left: 921px;
+
+  clip-path: inset(0 100% 0 0);
+}
+
+#section03 .drawing {
+  position: absolute;
+  top: 127px;
+  right: 540px;
+
+  clip-path: inset(0 100% 0 0);
+}
+
+#section03 .arrow01 {
+  position: absolute;
+  top: 862px;
+  left: 452px;
+
+  clip-path: inset(0 0 100% 0);
+}
+
+#section03 .arrow02 {
+  position: absolute;
+  top: 1070px;
+  right: 665px;
+
+  clip-path: inset(100% 0 0 0);
+}
+
+/* 중간레이아웃 */
+#section04 {
+  width: 1920px;
+  height: 506px;
+}
+
+#section04 .middle {
+  width: 1920px;
+
+  position: absolute;
+  top: 4329px;
+  left: 50%;
+  margin-left: -960px;
+}
+
+#section04 .smalltext {
+  position: absolute;
+  top: 94px;
+  left: 230px;
+}
+
+#section04 .text {
+  position: absolute;
+  top: 0;
+  right: 118px;
+
+  clip-path: inset(0 100% 0 0);
+}
+
+/* 컬러 */
+#section05 {
+  width: 1920px;
+  height: 1669px;
+}
+
+#section05 .color {
+  width: 1920px;
+
+  position: absolute;
+  top: 4835px;
+  left: 50%;
+  margin-left: -960px;
+}
+
+#section05 .colordesign {
+  position: absolute;
+  top: 57px;
+  left: 118px;
+}
+
+#section05 .yellowtext {
+  position: absolute;
+  top: 0;
+  left: 97px;
+
+  transform: rotate(15deg);
+  opacity: 0;
+}
+
+#section05 .text {
+  position: absolute;
+  top: 64px;
+  right: 248px;
+
+  transform: translateX(100px);
+  opacity: 0;
+}
+
+#section05 .img01 {
+  position: absolute;
+  top: 760px;
+  left: 117px;
+
+  transform: rotate(-10deg);
+  opacity: 0;
+}
+
+#section05 .colorchips {
+  width: 809px;
+  display: flex;
+  justify-content: space-between;
+
+  position: absolute;
+  top: 1165px;
+  right: 170px;
+
+  clip-path: inset(0 100% 0 0);
+}
+
+/* 페이지디자인 */
+#section06 {
+  width: 1920px;
+  height: 4110px;
+}
+
+#section06 .pagedesign {
+  width: 1920px;
+
+  position: absolute;
+  top: 6504px;
+  left: 50%;
+  margin-left: -960px;
+}
+
+#section06 .title {
+  position: absolute;
+  top: 0;
+  left: 649px;
+
+  opacity: 0;
+  transform: translateX(100px);
+}
+
+#section06 .screen {
+  position: absolute;
+  top: 172px;
+  left: 50%;
+  margin-left: -555px;
+}
+
+#section06 .smallscreen01 {
+  position: absolute;
+  top: 279px;
+  left: 167px;
+}
+
+#section06 .smallscreen02 {
+  position: absolute;
+  top: 1280px;
+  right: 246px;
+}
+
+#section06 .smallscreen03 {
+  position: absolute;
+  top: 2234px;
+  right: 246px;
+}
+
+#section06 .text01 {
+  position: absolute;
+  top: 342px;
+  left: 1505px;
+
+  opacity: 0;
+  transform: translateY(20px);
+}
+#section06 .text02 {
+  position: absolute;
+  top: 1280px;
+  left: 143px;
+
+  opacity: 0;
+  transform: translateY(20px);
+}
+#section06 .text03 {
+  position: absolute;
+  top: 1733px;
+  left: 1505px;
+
+  opacity: 0;
+  transform: translateY(20px);
+}
+#section06 .text04 {
+  position: absolute;
+  top: 2296px;
+  left: 149px;
+
+  opacity: 0;
+  transform: translateY(20px);
+}
+#section06 .text05 {
+  position: absolute;
+  top: 3066px;
+  left: 1505px;
+
+  opacity: 0;
+  transform: translateY(20px);
+}
+
+#section06 .coupons {
+  position: absolute;
+  top: 1701px;
+  left: 193px;
+
+  animation: move 0.7s linear alternate infinite;
+}
+
+#section06 .outers {
+  position: absolute;
+  top: 1747px;
+  left: 310px;
+
+  animation: move 0.7s linear alternate infinite;
+}
+
+@keyframes move {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(10deg);
+  }
+}
+
+#section06 .smile > div {
+  position: absolute;
+}
+
+#section06 .smile01 {
+  position: absolute;
+  top: 3259px;
+  right: 1581px;
+
+  animation: floating 2s linear alternate infinite;
+}
+
+#section06 .smile02 {
+  position: absolute;
+  top: 2879px;
+  right: 284px;
+
+  animation: floating 2s linear alternate infinite;
+}
+
+#section06 .smile03 {
+  position: absolute;
+  top: 2602px;
+  left: 1698px;
+
+  animation: floating 2s linear alternate infinite;
+}
+
+@keyframes floating {
+  0% {
+    transform: translateY(0px);
+  }
+  100% {
+    transform: translateY(20px);
+  }
+}
+
+/* Thanks */
+#section06 .deco {
+  position: absolute;
+  top: 3557px;
+  left: 678px;
+}
+
+#section06 .thanksfor {
+  position: absolute;
+  top: 3651px;
+  left: 49px;
+
+  opacity: 0;
+  transform: translateX(-1000px);
+}
+
+#section06 .watching {
+  position: absolute;
+  top: 3725px;
+  right: 49px;
+
+  opacity: 0;
+  transform: translateX(1000px);
+}
+
+#section06 .textrolling01 {
+  position: absolute;
+  top: 3950px;
+  left: 0;
+
+  transform: rotate(15deg);
+
+  display: none;
+}
+
+#section06 .textrolling01 .inner {
+  display: flex;
+}
+
+#section06 .textrolling02 {
+  position: absolute;
+  top: 3690px;
+  right: 0;
+
+  transform: rotate(5deg);
+}
+
+#section06 .textrolling02 .inner {
+  display: flex;
+}
+
+#section06 .textrolling03 {
+  position: absolute;
+  top: 3635px;
+  left: 0;
+
+  transform: rotate(-8deg);
+}
+
+#section06 .textrolling03 .inner {
+  display: flex;
+}
