@@ -1,0 +1,631 @@
+#wrap {
+  width: 100vw;
+  height: 4372px;
+  background: #fafafa;
+
+  overflow: hidden;
+  position: relative;
+}
+
+/* 비주얼 */
+#section01 {
+  width: 1920px;
+  height: 1080px;
+}
+
+#section01 .visual {
+  position: absolute;
+  top: 0px;
+
+  width: 1920px;
+  height: 1194px;
+  left: 50%;
+  margin-left: -960px;
+  z-index: 100;
+}
+
+#section01 .bg {
+  position: absolute;
+  top: 0;
+}
+
+#section01 .gnb01 {
+  position: absolute;
+  top: 43px;
+  right: 1177px;
+}
+
+#section01 .gnb02 {
+  position: absolute;
+  top: 43px;
+  right: 858px;
+}
+
+#section01 .gnb03 {
+  position: absolute;
+  top: 43px;
+  right: 545px;
+}
+
+#section01 .gnb04 {
+  position: absolute;
+  top: 43px;
+  right: 227px;
+}
+
+#section01 .select01 {
+  position: absolute;
+  top: 33px;
+  right: 1156px;
+  opacity: 0;
+}
+#section01 .select01.on {
+  opacity: 1;
+}
+
+#section01 .select02 {
+  position: absolute;
+  top: 33px;
+  right: 835px;
+  opacity: 0;
+}
+#section01 .select02.on {
+  opacity: 1;
+}
+
+#section01 .select03 {
+  position: absolute;
+  top: 33px;
+  right: 520px;
+  opacity: 0;
+}
+#section01 .select03.on {
+  opacity: 1;
+}
+
+#section01 .select04 {
+  position: absolute;
+  top: 33px;
+  right: 204px;
+  opacity: 0;
+}
+#section01 .select04.on {
+  opacity: 1;
+}
+
+#section01 .line {
+  position: absolute;
+  top: 92px;
+  left: 0;
+}
+
+#section01 .logo {
+  position: absolute;
+  left: 61px;
+  top: 33px;
+}
+
+#section01 .arrow {
+  position: absolute;
+  right: 61px;
+  top: 37px;
+}
+
+#section01 .arrow02 {
+  position: absolute;
+  right: 61px;
+  top: 37px;
+  opacity: 0;
+}
+#section01 .arrow02.on {
+  opacity: 1;
+}
+
+#section01 .bigtext {
+  position: absolute;
+  top: 156px;
+  left: 55px;
+}
+
+#section01 .text01 {
+  position: absolute;
+  top: 184px;
+  right: 466px;
+}
+
+#section01 .text02 {
+  position: absolute;
+  top: 786px;
+  right: 887px;
+
+  animation: clipPath 0.5s linear normal 1;
+}
+
+@keyframes clipPath {
+  0% {
+    clip-path: inset(0 100% 0 0);
+  }
+  100% {
+    clip-path: inset(0 0 0 0);
+  }
+}
+
+#section01 .planet {
+  position: absolute;
+  top: 467px;
+  left: 523px;
+  animation: scale 0.2s linear normal 1;
+  display: none;
+}
+#section01 .planet.on {
+  display: block;
+}
+
+#section01 .elephant {
+  position: absolute;
+  top: 353px;
+  right: 0;
+
+  animation: moveX 0.5s linear normal 1;
+}
+
+#section01 .hat {
+  position: absolute;
+  top: -73px;
+  right: 11px;
+}
+#section01 .hat.on {
+  animation: rotate_repeat 1s linear 0.2s normal 1;
+}
+
+#section01 .light {
+  position: absolute;
+  top: 139px;
+  right: 206px;
+
+  animation: scale 0.2s linear normal 1;
+  display: none;
+}
+#section01 .light.on {
+  display: block;
+}
+
+@keyframes scale {
+  0% {
+    transform: scale(0.2);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes moveX {
+  0% {
+    transform: translateX(600px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+
+@keyframes rotate_repeat {
+  0% {
+    transform: rotate(0deg);
+  }
+  20% {
+    transform: rotate(10deg);
+  }
+  40% {
+    transform: rotate(0deg);
+  }
+  60% {
+    transform: rotate(10deg);
+  }
+  80% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+/* hello */
+#section02 {
+  width: 1920px;
+  height: 1080px;
+}
+
+#section02 .hello {
+  position: absolute;
+  top: 1194px;
+
+  width: 1920px;
+  height: 1095px;
+  left: 50%;
+  margin-left: -960px;
+}
+
+#section02 .star {
+  position: absolute;
+  top: -124px;
+  right: 1438px;
+}
+
+#section02 .notmove {
+  position: absolute;
+  top: 0;
+  left: 61px;
+}
+
+#section02 .elephant {
+  position: absolute;
+  top: 288px;
+  left: 124px;
+  opacity: 0;
+  transform: scale(0.2);
+}
+
+#section02 .profile {
+  position: absolute;
+  top: 630px;
+  left: 359px;
+  opacity: 0;
+  transform: scale(0.2);
+}
+
+#section02 .text01 {
+  position: absolute;
+  top: 175px;
+  left: 922px;
+
+  clip-path: inset(0 100% 0 0);
+}
+
+#section02 .title {
+  position: absolute;
+  left: 923px;
+  top: 513px;
+
+  clip-path: inset(0 100% 0 0);
+}
+
+#section02 .text02 {
+  position: absolute;
+  left: 923px;
+  top: 594px;
+
+  clip-path: inset(0 0 100% 0);
+}
+
+#section02 .letters > li {
+  position: absolute;
+  opacity: 0;
+  transform: scale(0.2);
+}
+
+#section02 .letter01 {
+  top: 161px;
+  right: 340px;
+}
+
+#section02 .letter02 {
+  right: 269px;
+  top: 224px;
+}
+
+#section02 .letter03 {
+  top: 285px;
+  right: 318px;
+}
+
+/* 포트폴리오 */
+#section03 {
+  width: 1920px;
+  height: 1080px;
+}
+
+#section03 .portfolio {
+  position: absolute;
+  top: 2289px;
+
+  width: 1920px;
+  height: 900px;
+  left: 50%;
+  margin-left: -960px;
+}
+
+#section03 .bg {
+  position: absolute;
+  top: 0;
+}
+
+#section03 .letters > li {
+  position: absolute;
+}
+
+#section03 .letter01 {
+  top: -42px;
+  left: 85px;
+  opacity: 0;
+  transform: scale(0.2);
+}
+
+#section03 .letter02 {
+  top: -4px;
+  left: 151px;
+  opacity: 0;
+  transform: scale(0.2);
+}
+
+#section03 .letter03 {
+  top: -30px;
+  left: 221px;
+  opacity: 0;
+  transform: scale(0.2);
+}
+
+#section03 .title {
+  position: absolute;
+  top: 108px;
+  left: 83px;
+  clip-path: inset(0 100% 0 0);
+}
+
+#section03 .elephant {
+  position: absolute;
+  top: -59px;
+  left: 957px;
+  opacity: 0;
+  transform: scale(0.2);
+}
+
+#section03 .thumbnail {
+  position: absolute;
+  top: -511px;
+  right: 0;
+
+  transform: translate(1000px, -100px) rotate(-30deg);
+}
+#section03 .thumbnail.on {
+  display: none;
+}
+
+#section03 .jouw {
+  position: absolute;
+  top: -511px;
+  right: 0;
+  transform: translate(1000px, -100px) rotate(-30deg);
+  display: none;
+}
+#section03 .jouw.on {
+  display: block;
+}
+
+#section03 .converse {
+  position: absolute;
+  top: -511px;
+  right: 0;
+  transform: translate(1000px, -100px) rotate(-30deg);
+  display: none;
+}
+#section03 .converse.on {
+  display: block;
+}
+
+#section03 .sangsunal {
+  position: absolute;
+  top: -511px;
+  right: 0;
+  transform: translate(1000px, -100px) rotate(-30deg);
+  display: none;
+}
+#section03 .sangsunal.on {
+  display: block;
+}
+
+#section03 .bowers {
+  position: absolute;
+  top: -511px;
+  right: 0;
+  transform: translate(1000px, -100px) rotate(-30deg);
+  display: none;
+}
+#section03 .bowers.on {
+  display: block;
+}
+
+#section03 .hover01 {
+  position: absolute;
+  top: 217px;
+  right: 710px;
+  display: none;
+}
+#section03 .hover01.on {
+  display: block;
+  animation: clipPath 0.2s linear normal 1;
+}
+
+#section03 .hover02 {
+  position: absolute;
+  top: 368px;
+  right: 710px;
+  display: none;
+}
+#section03 .hover02.on {
+  display: block;
+  animation: clipPath 0.2s linear normal 1;
+}
+
+#section03 .hover03 {
+  position: absolute;
+  top: 522px;
+  right: 710px;
+  display: none;
+}
+#section03 .hover03.on {
+  display: block;
+  animation: clipPath 0.2s linear normal 1;
+}
+
+#section03 .hover04 {
+  position: absolute;
+  top: 672px;
+  right: 710px;
+  display: none;
+}
+#section03 .hover04.on {
+  display: block;
+  animation: clipPath 0.2s linear normal 1;
+}
+
+#section03 .content01 {
+  position: absolute;
+  top: 217px;
+  left: 84px;
+}
+
+#section03 .line01 {
+  position: absolute;
+  left: 85px;
+  top: 324px;
+}
+
+#section03 .content02 {
+  position: absolute;
+  top: 368px;
+  left: 84px;
+}
+
+#section03 .line02 {
+  position: absolute;
+  left: 85px;
+  top: 475px;
+}
+
+#section03 .content03 {
+  position: absolute;
+  top: 522px;
+  left: 84px;
+}
+
+#section03 .line03 {
+  position: absolute;
+  top: 626px;
+  left: 85px;
+}
+
+#section03 .content04 {
+  position: absolute;
+  top: 672px;
+  left: 84px;
+}
+
+/* 푸터 */
+#section04 {
+  width: 1920px;
+  height: 1080px;
+}
+
+#section04 .footer {
+  position: absolute;
+  top: 3189px;
+
+  width: 1920px;
+  height: 1183px;
+  left: 50%;
+  margin-left: -960px;
+}
+
+#section04 .bg {
+  position: absolute;
+  top: 0;
+}
+
+#section04 .keyword01{
+  position: absolute;
+  top: 125px;
+  left: 160px;
+  opacity: 0;
+  transform: scale(0.2);
+}
+
+#section04 .keyword02{
+  position: absolute;
+  top: -51px;
+  left: 816px;
+  opacity: 0;
+  transform: scale(0.2);
+  transform: translateY(50px);
+}
+
+#section04 .keyword03 {
+  position: absolute;
+  top: 125px;
+  right: 160px;
+  opacity: 0;
+  transform: scale(0.2);
+}
+
+#section04 .logo02{
+  position: absolute;
+  right: 537px;
+  top: 288px;
+
+  animation: rotate 8s linear infinite;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+#section04 .logo01 {
+  position: absolute;
+  top: 313px;
+  right: 562px;
+}
+
+#section04 .content01 {
+  position: absolute;
+  top: 460px;
+  right: 61px;
+}
+
+#section04 .content02 {
+  position: absolute;
+  top: 495px;
+  right: 61px;
+}
+
+#section04 .content03 {
+  position: absolute;
+  top: 531px;
+  right: 61px;
+}
+
+#section04 .content04 {
+  position: absolute;
+  top: 566px;
+  right: 61px;
+}
+
+#section04 .unsplash {
+  position: absolute;
+  top: 689px;
+  right: 60px;
+}
+
+#section04 .tele{
+  position: absolute;
+  bottom: 268px;
+  left: 545px;
+
+  opacity: 0;
+  transform: scale(0.2);
+}
