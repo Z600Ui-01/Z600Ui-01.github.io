@@ -358,8 +358,8 @@ let se04_tele = gsap.timeline();
 ScrollTrigger.create({
   animation: se04_tele,
   trigger: "#section04",
-  start: "-400px top",
-  end: "600px bottom",
+  start: "-300px top",
+  end: "500px bottom",
   scrub: 1,
 });
 se04_tele.to("#section04 .tele", { opacity : 1 , scale : 1 });
