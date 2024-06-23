@@ -6,6 +6,50 @@ window.onload = function () {
 
 /* --------------------------------------------------------- */
 
+/* GNB 호버반응 */
+
+$("#gnb .gnb01")
+.mouseenter(function () {
+  $("#gnb .select01").addClass("on");
+})
+.mouseleave(function () {
+  $("#gnb .select01").removeClass("on");
+});
+
+$("#gnb .gnb02")
+.mouseenter(function () {
+  $("#gnb .select02").addClass("on");
+})
+.mouseleave(function () {
+  $("#gnb .select02").removeClass("on");
+});
+
+$("#gnb .gnb03")
+.mouseenter(function () {
+  $("#gnb .select03").addClass("on");
+})
+.mouseleave(function () {
+  $("#gnb .select03").removeClass("on");
+});
+
+$("#gnb .gnb04")
+.mouseenter(function () {
+  $("#gnb .select04").addClass("on");
+})
+.mouseleave(function () {
+  $("#gnb .select04").removeClass("on");
+});
+
+$("#gnb .arrow")
+.mouseenter(function () {
+  $("#gnb .arrow02").addClass("on");
+})
+.mouseleave(function () {
+  $("#gnb .arrow02").removeClass("on");
+});
+
+/* --------------------------------------------------------- */
+
 let se02_bg = gsap.timeline();
 ScrollTrigger.create({
   animation: se02_bg,
