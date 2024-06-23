@@ -3,6 +3,51 @@ window.onload = function () {
     scrollTo(0, 0);
   }, 100);
 };
+/* --------------------------------------------------------- */
+
+/* GNB 호버반응 */
+
+$("#gnb .gnb01")
+.mouseenter(function () {
+  $("#gnb .select01").addClass("on");
+})
+.mouseleave(function () {
+  $("#gnb .select01").removeClass("on");
+});
+
+$("#gnb .gnb02")
+.mouseenter(function () {
+  $("#gnb .select02").addClass("on");
+})
+.mouseleave(function () {
+  $("#gnb .select02").removeClass("on");
+});
+
+$("#gnb .gnb03")
+.mouseenter(function () {
+  $("#gnb .select03").addClass("on");
+})
+.mouseleave(function () {
+  $("#gnb .select03").removeClass("on");
+});
+
+$("#gnb .gnb04")
+.mouseenter(function () {
+  $("#gnb .select04").addClass("on");
+})
+.mouseleave(function () {
+  $("#gnb .select04").removeClass("on");
+});
+
+$("#gnb .arrow")
+.mouseenter(function () {
+  $("#gnb .arrow02").addClass("on");
+})
+.mouseleave(function () {
+  $("#gnb .arrow02").removeClass("on");
+});
+
+/* --------------------------------------------------------- */
 
 setTimeout(() => {
   $("#section01 .particle01").addClass("on");
@@ -21,15 +66,6 @@ setTimeout(() => {
 }, 600);
 
 /* --------------------------------------------------------- */
-
-/* $(function (){
-    $('#section02').mouseenter(function () {
-        $('#section02 .gift').addClass("on")
-    });
-    $('#section02').mouseleave(function () {
-        $('#section02 .gift').removeClass("on")
-    });
-}) */
 
 let se02_whitebox = gsap.timeline();
 ScrollTrigger.create({
