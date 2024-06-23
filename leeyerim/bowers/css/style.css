@@ -1,10 +1,134 @@
+#gnb {
+  position: absolute;
+  width: 1920px;
+  height: 93px;
+  top: 0;
+  left: 50%;
+  margin-left: -960px;
+}
+
+#gnb .bgbox {
+  width: 100vw;
+  height: 93px;
+  background: #f2f2f2;
+
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#gnb .gnb_bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1920px;
+  height: 93px;
+  background: #f2f2f2;
+}
+
+#gnb .gnb01 {
+  position: absolute;
+  top: 43px;
+  right: 1177px;
+}
+
+#gnb .gnb02 {
+  position: absolute;
+  top: 43px;
+  right: 858px;
+}
+
+#gnb .gnb03 {
+  position: absolute;
+  top: 43px;
+  right: 545px;
+}
+
+#gnb .gnb04 {
+  position: absolute;
+  top: 43px;
+  right: 227px;
+}
+
+#gnb .select01 {
+  position: absolute;
+  top: 33px;
+  right: 1156px;
+  opacity: 0;
+}
+#gnb .select01.on {
+  opacity: 1;
+}
+
+#gnb .select02 {
+  position: absolute;
+  top: 33px;
+  right: 835px;
+  opacity: 0;
+}
+#gnb .select02.on {
+  opacity: 1;
+}
+
+#gnb .select03 {
+  position: absolute;
+  top: 33px;
+  right: 520px;
+  opacity: 0;
+}
+#gnb .select03.on {
+  opacity: 1;
+}
+
+#gnb .select04 {
+  position: absolute;
+  top: 33px;
+  right: 204px;
+  opacity: 0;
+}
+#gnb .select04.on {
+  opacity: 1;
+}
+
+#gnb .line {
+  position: absolute;
+  top: 92px;
+  left: 0;
+}
+
+#gnb .logo {
+  position: absolute;
+  left: 61px;
+  top: 33px;
+}
+
+#gnb .arrow {
+  position: absolute;
+  right: 61px;
+  top: 37px;
+}
+
+#gnb .arrow02 {
+  position: absolute;
+  right: 61px;
+  top: 37px;
+  opacity: 0;
+}
+#gnb .arrow02.on {
+  opacity: 1;
+}
+
 #wrap {
   width: 100vw;
   height: 4794px;
   background: #f2f2f2;
 
   overflow: hidden;
-  position: relative;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 93px;
 }
 
 .wholebg {
