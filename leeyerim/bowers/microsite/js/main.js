@@ -267,6 +267,25 @@ window.addEventListener("DOMContentLoaded", function () {
     $(".posNum").html(scrollTop);
   });
 
+  /* 로고 누르면 메인으로 이동 */
+  $("#logo").click(function () {
+    container.scrollTo(0, 0, 0, {
+      //xScroll, yScroll, speed(1000 = 1s)
+      callback: () => console.log("done!"),
+      easing: easing.easeInOutCirc,
+    });
+  });
+
+    /* 메뉴에서 로고 누르면 메인으로 이동*/
+    $("#menu_page .logo").click(function () {
+      container.scrollTo(0, 0, 0, {
+        //xScroll, yScroll, speed(1000 = 1s)
+        callback: () => console.log("done!"),
+        easing: easing.easeInOutCirc,
+      });
+      $("#menu_page").fadeOut(1000);
+    });
+
   /* 메뉴 나타나고 사라지기 */
   $("#menu").click(function () {
     $("#menu_page").fadeIn(1000);
