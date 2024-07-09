@@ -121,6 +121,8 @@ body {
   top: 33px;
 
   z-index: 1500;
+
+  cursor: pointer;
 }
 
 #menu_page .menu_close {
@@ -663,6 +665,8 @@ body {
 
   left: 36px;
   top: 33px;
+
+  cursor: pointer;
 }
 
 #nav #menu {
