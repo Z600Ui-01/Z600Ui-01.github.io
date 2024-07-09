@@ -7,6 +7,13 @@
   position: relative;
 }
 
+#topbtn {
+  position: fixed;
+  right: 30px;
+  bottom: 50px;
+  z-index: 1000;
+}
+
 /* 비주얼 */
 #section01 {
   width: 1920px;
@@ -163,7 +170,7 @@
 
 #section01 .elephant {
   position: absolute;
-  top: 353px;
+  top: 351px;
   right: 0;
 
   animation: moveX 0.5s linear normal 1;
