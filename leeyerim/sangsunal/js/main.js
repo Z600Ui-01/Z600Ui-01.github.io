@@ -631,8 +631,8 @@ let se12_logo = gsap.timeline();
 ScrollTrigger.create({
   animation: se12_logo,
   trigger: "#section12",
-  start: "400px top",
-  end: "800px bottom",
+  start: "200px top",
+  end: "400px bottom",
   scrub: 1,
 });
 se12_logo.to("#section12 .logo", { opacity: 1, scale: 1 });
